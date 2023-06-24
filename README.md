@@ -58,7 +58,7 @@ Source: [Leetcode 122 - Best Time to Buy and Sell Stock II](https://leetcode.com
 ## ***<span style="color:gray">*Question 2*</span>***
 You are a developer stock broker for your company and the market projection team have given you a projection of the prices of the stock/commodity for a given period of time. For example, **prices = [ 12, 9, 5, 31, 90, 3 ]**, each index represents a day and the value at each index represents the price for the day. As an important member of the company, you have been tasked to write a method to determine whether to ***buy or sell and HOLD*** (to 'HOLD' means to retain the position i.e. buy/sell taken for a period of time) a commodity/stock to maximize profit. 
 <br/>
-The expected return statement is "A '**sell/buy**' position should be taken on day **dayToSell/dayToBuy** and closed on **dayToClose**. If no profit can be gotten, the return the string **"No trades possible."**
+The expected return statement is "A '**sell/buy**' position should be taken on day **dayToSell/dayToBuy** and closed on **dayToClose** to get a maximum profit of maxProfit.". If the profit from taking a buy position and a sell position are same, take the trade with the earliest time to profit. If no profit can be gotten, the return the string **"No trades possible."**
 <br/>
 
 Example 1:
@@ -99,10 +99,33 @@ Example 5:
 ***Input***: tradeList_5 = [ ]
 <br/>
 ***Output***: "No trades possible."
+******
+<br/>
+
+Example 6:
+<br/>
+***Input***: tradeList_4 = [ 1, 7, 5, 3, 7, 1 ]
+<br/>
+***Output***: "A 'buy' position should be taken on day 1 and closed on day 2 to get a maximum profit of 6."
+******
+<br/>
+
+Example 7:
+<br/>
+***Input***: tradeList_4 = [ 7, 1, 5, 3, 1, 7 ]
+<br/>
+***Output***: "A 'sell' position should be taken on day 1 and closed on day 2 to get a maximum profit of 6."
+******
+<br/>
+
+Example 8:
+<br/>
+***Input***: tradeList_4 = [ 4, 6, 3, -5, 1, 7 ]
+<br/>
+***Output***: "A 'buy' position should be taken on day 4 and closed on day 6 to get a maximum profit of 12."
 <br/>
 ******
 ******
-<br/>
 
 
 ### ***You may decide to take a different path in designing and implementing your solution. Happy coding.***
