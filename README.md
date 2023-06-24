@@ -104,7 +104,7 @@ Example 5:
 
 Example 6:
 <br/>
-***Input***: tradeList_4 = [ 1, 7, 5, 3, 7, 1 ]
+***Input***: tradeList_6 = [ 1, 7, 5, 3, 7, 1 ]
 <br/>
 ***Output***: "A 'buy' position should be taken on day 1 and closed on day 2 to get a maximum profit of 6."
 ******
@@ -112,7 +112,7 @@ Example 6:
 
 Example 7:
 <br/>
-***Input***: tradeList_4 = [ 7, 1, 5, 3, 1, 7 ]
+***Input***: tradeList_7 = [ 7, 1, 5, 3, 1, 7 ]
 <br/>
 ***Output***: "A 'sell' position should be taken on day 1 and closed on day 2 to get a maximum profit of 6."
 ******
@@ -120,7 +120,7 @@ Example 7:
 
 Example 8:
 <br/>
-***Input***: tradeList_4 = [ 4, 6, 3, -5, 1, 7 ]
+***Input***: tradeList_8 = [ 4, 6, 3, -5, 1, 7 ]
 <br/>
 ***Output***: "A 'buy' position should be taken on day 4 and closed on day 6 to get a maximum profit of 12."
 <br/>
