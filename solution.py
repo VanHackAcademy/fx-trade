@@ -107,12 +107,12 @@ tradeList_7 = [4, 6, 3, -5, 1, 7]
 
 trade = Trading()
 
-print(trade.analyzeTrade(tradeList_1))
-# print(trade.analyzeTrade(tradeList_2))
-# print(trade.analyzeTrade(tradeList_3))
-# print(trade.analyzeTrade(tradeList_4))
-# print(trade.analyzeTrade(tradeList_5))
-# print(trade.analyzeTrade(tradeList_6))
-# print(trade.analyzeTrade(tradeList_7))
+print(trade.analyzeTrade(tradeList_1)) # => Expected Result "A 'sell' position should be taken on day 1 and closed on day 2 to get a max profit of 6."
+print(trade.analyzeTrade(tradeList_2)) # => Expected Result "A 'buy' position should be taken on day 1 and closed on day 5 to get a max profit of 4."
+print(trade.analyzeTrade(tradeList_3)) # => Expected Result "A 'sell' position should be taken on day 1 and closed on day 5 to get a max profit of 6."
+print(trade.analyzeTrade(tradeList_4)) # => Expected Result "A 'buy' position should be taken on day 5 and closed on day 6 to get a max profit of 6."
+print(trade.analyzeTrade(tradeList_5)) # => Expected Result "No trades possible."
+print(trade.analyzeTrade(tradeList_6)) # => Expected Result "No trades possible."
+print(trade.analyzeTrade(tradeList_7)) # => Expected Result "A 'buy' position should be taken on day 4 and closed on day 6 to get a max profit of 12."
 
 
